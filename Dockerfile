@@ -1,6 +1,6 @@
 FROM debian:9
 
-ENV SKYSCRAPER_VERSION=3.3.8
+ENV SKYSCRAPER_VERSION=3.5.5
 
 WORKDIR /src
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
